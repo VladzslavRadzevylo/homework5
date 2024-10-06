@@ -3,6 +3,12 @@
  background-color: aquamarine ;
 }
 
+body {
+ border: 2px 
+ solid blue; 
+ margin: 2x; 
+}
+
 div {
  font-size: 20px;
  color: rgb(2, 2, 24);
