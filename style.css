@@ -1,0 +1,91 @@
+* {
+ font-size: 15px;
+ background-color: aquamarine ;
+}
+
+div {
+ font-size: 20px;
+ color: blue;
+}
+
+.first {
+ color: blueviolet;
+font-size:  12px;
+background-color: aliceblue;
+}
+
+#first1 {
+ color: brown;
+ font-family: Georgia;
+ font-size: 24px;
+}
+
+section.other {
+ font-family: Verdana;
+ color: green;
+ font-size: 20px;
+}
+
+#enother .other  {
+ color: rgb(255, 0, 170);
+ font-size: 10px;
+ text-align: center;
+ background-color: bisque;
+}
+
+.other {
+ color: black;
+ font-size: 32px;
+ background-color: rgb(169, 169, 173);
+}
+
+div ol.castom-ol {
+ list-style-type: upper-roman;
+ color: rgb(252, 21, 86); 
+ font-size:  28px;
+}
+
+div ol.castom-ol > li {
+ text-decoration: underline;
+ font-size: 14px;
+}
+
+#main-content.highlight p {
+ color: red;
+ font-weight: bold;
+}
+
+#main-content2 p.highlight2 {
+ color : rgb(141, 232, 43);
+ font-family: Helvetica;
+ font-size: small;
+}
+
+h4+h2 {
+ background-color: brown;
+}
+
+span~h2 {
+ background-color: goldenrod;
+}
+
+ol li:first-child {
+ background-color: blanchedalmond;
+}
+
+ol li:last-child {
+ background-color: rgb(212, 0, 255);
+
+}
+
+ol li:nth-child(2) {
+ background-color: rgb(87, 128, 0);
+}
+
+li:not(.main-class) {
+ color: black;
+}
+
+.main-class {
+ color: red;
+}

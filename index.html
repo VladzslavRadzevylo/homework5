@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>home work 5</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div>
+    Перший простий дів який має лише <strong>бал (окрім цього тексту тому що маємо загальний стиль)</strong> (напис буде синього кольору)
+  </div>
+
+  <div class="first">
+    <p>Це дів який має клас це означає що він має вагу 10 (має бути віолетовим та іншого розміру текст)</p>
+  </div>
+
+  <div style="color:rgb(255, 0, 38); font-size: 24px;">
+    Цей дів має найбільшу вагу в 
+    <strong class="first">1000 балів</strong>
+    але лише до та після тегу strong так як той має в собі клас 
+  </div>
+
+  <p> це просто лише 1 БАЛ</p>
+
+  <div>
+    <p id="first1">Цей параграф буде мати вагу в 0100 балів</p>
+  </div>
+
+  <section id="enother">
+    <h2 class="other"> Вага цього тексту 0110 </h2>
+  </section>
+
+  <div>
+    <ol class="castom-ol">
+      <li>Владислав</li>
+      <li>Радзевило</li>
+      <li class="other">Емілія (вага 0113)</li>
+      <li>Радзевило (але загальна специфічність цього списку  0103)</li>
+    </ol>
+  </div>
+
+  <section id="main-content" class="highlight">
+    <p>Цей текст буде червоним і жирним, бо селектор має специфічність 
+      0111.</p>
+    <h1>цей текст не підпорядковується ні до яких селекторів лише до *</h1>
+  </section>
+  
+  <div id="main-content2" style="font-size: large; color: blueviolet;">
+    <p class="highlight2"> 
+      Тут стиль не може переписати селектор з id та дочірнім класом (вага 110)
+    </p>
+  </div>
+
+  <div>
+    <h4>Проста перевірка селекторів</h4>
+    <h2>це також</h2>
+    <h2>і це</h2>
+    <span>ЦЕЙ спан дістав стиль від діву має 1 бал</span>
+    <h2>і це також</h2>
+    <h2>всі вони унаслідували стилі з самого</h2>
+    <h2>першого діву, а деякі дістали власні селектори кожен по 2 бали</h2>
+  </div>
+
+  <div>
+    <ol>
+      <li class="main-class">перший у списку має свій псевдоклас 10 балів</li>
+      <li>всі наступні</li>
+      <li >підпорядковані своїм псевдокласам </li>
+      <li style="color: aliceblue; background-color: rgb(255, 191, 127);">крім цього тому 
+      що він має свій стиль і відміняє псевдоклас (ol li:last-child) так як має більшу вагу
+      1000>10 </li>
+    </ol>
+  </div>
+
+</body>
+
+</html>
